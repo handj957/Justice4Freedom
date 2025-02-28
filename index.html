@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>간단한 홈페이지</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            padding: 20px;
+        }
+        .image-gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .image-gallery img {
+            width: 300px;
+            height: auto;
+            margin: 10px;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>간단한 홈페이지</h1>
+    </header>
+    
+    <nav>
+        <a href="#about">홈페이지 소개</a>
+        <a href="#content">내용</a>
+        <a href="#gallery">사진 올리기</a>
+    </nav>
+
+    <div id="about" class="content">
+        <h2>홈페이지 소개</h2>
+        <p>이 홈페이지는 간단한 HTML 구조로 구성되었습니다. 다양한 정보를 보여주기 위해 여러 섹션으로 나누어져 있습니다.</p>
+    </div>
+
+    <div id="content" class="content">
+        <h2>내용</h2>
+        <p>이 섹션은 홈페이지의 내용을 다룹니다. 예를 들어, 회사 소개, 개인 블로그, 또는 프로젝트 정보 등을 포함할 수 있습니다.</p>
+    </div>
+
+    <div id="gallery" class="content">
+        <h2>사진 올리기</h2>
+        <div class="image-gallery">
+            <img src="https://via.placeholder.com/300" alt="사진1">
+            <img src="https://via.placeholder.com/300" alt="사진2">
+            <img src="https://via.placeholder.com/300" alt="사진3">
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 간단한 홈페이지</p>
+    </footer>
+</body>
+</html>
