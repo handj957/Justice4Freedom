@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>자유를 위한 정의</title>
+    <title>친중행위하고 반미활동하는 자들</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -32,64 +32,88 @@
         }
         .content {
             padding: 20px;
-        }
-        .image-gallery {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
-        .image-gallery img {
-            width: 300px;
-            height: auto;
-            margin: 10px;
-        }
-        footer {
             text-align: center;
-            background-color: #333;
-            color: white;
+        }
+        table {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ccc;
             padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            text-align: center;
+        }
+        img {
+            width: 100px;
+            height: 100px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>자유를 위한 외침</h1>
+        <h1>Justice4freedom</h1>
     </header>
     
     <nav>
-        <a href="#about">이 곳은 자유민주주의와 시장경제를 지지하고 한국과 미국을 지지한다. 하지만 반국가세력의 활동으로 친중 반미하는 자들을 경계하기 위하여 개설했다.</a>
-        <a href="#content">국내에서 조직적으로 중공공산당의 영향력을 확대하고 정치인, 경제인 등 다양한 분야의 사람들에게 친중세력을 확대하는 중공공산당의 하수인 역할을 하는 것 같습니다. 
-            이 사람은 윤석열 대통령 탄핵지지하는 공산주의자들 입니다. 반미 친중활동하는 이런 사람들은 미국 국익과 안보에 좋지 않습니다. 미국 입국시 심사숙고 부탁드립니다.
-
-
-
+        <a href="#about">홈페이지 소개</a>
+        <a href="#content">내용</a>
         <a href="#gallery">사진 올리기</a>
     </nav>
 
     <div id="about" class="content">
         <h2>홈페이지 소개</h2>
-        <p>이 홈페이지는 간단한 HTML 구조로 구성되었습니다. 다양한 정보를 보여주기 위해 여러 섹션으로 나누어져 있습니다.</p>
+        <p>이 홈페이지는 자유대한민국과 미국를 지키고자 만든 홈페이지입니다..</p>
     </div>
 
     <div id="content" class="content">
-        <h2>친중 반미하는 공산주의자들</h2>
-        <p>이 사람들은 윤석열 대통령 탄핵을 찬성하는 자들로 친중행위하고 반미하는 사람들입니다. 미국입국에 참고하여 미국 안보에 도움되길 바랍니다..</p>
+        <h2>신고하기</h2>
+        <p>친중행위하고 반미활동하는 자들로 미국안보와 국익에 악영향을 주는 자들입니다. 이들은 윤석열 대통령 탄핵 지지하는 자들입니다. 탄핵지지하는 이들은  친중 반미 행위자들입니다.
+이들이 미국 입국시 심사숙고 바랍니다..</p>
     </div>
 
     <div id="gallery" class="content">
-        <h2>친중행위자들</h2>
-        <div class="image-gallery">
-            <img src="https://via.placeholder.com/300" alt="사진1">
-            <img src="https://via.placeholder.com/300" alt="사진2">
-            <img src="https://via.placeholder.com/300" alt="사진3">
-        </div>
+        <h2>친중 반미 행위자들</h2>
+        <table>
+            <tr>
+                <td><input type="file" accept="image/*" onchange="previewImage(event, 'img1')"><br><img id="img1" src="" alt="이미지"></td>
+                <td><input type="file" accept="image/*" onchange="previewImage(event, 'img2')"><br><img id="img2" src="" alt="이미지"></td>
+                <td><input type="file" accept="image/*" onchange="previewImage(event, 'img3')"><br><img id="img3" src="" alt="이미지"></td>
+                <td><input type="file" accept="image/*" onchange="previewImage(event, 'img4')"><br><img id="img4" src="" alt="이미지"></td>
+            </tr>
+            <tr>
+                <td><input type="file" accept="image/*" onchange="previewImage(event, 'img5')"><br><img id="img5" src="" alt="이미지"></td>
+                <td><input type="file" accept="image/*" onchange="previewImage(event, 'img6')"><br><img id="img6" src="" alt="이미지"></td>
+                <td><input type="file" accept="image/*" onchange="previewImage(event, 'img7')"><br><img id="img7" src="" alt="이미지"></td>
+                <td><input type="file" accept="image/*" onchange="previewImage(event, 'img8')"><br><img id="img8" src="" alt="이미지"></td>
+            </tr>
+            <tr>
+                <td><input type="file" accept="image/*" onchange="previewImage(event, 'img9')"><br><img id="img9" src="" alt="이미지"></td>
+                <td><input type="file" accept="image/*" onchange="previewImage(event, 'img10')"><br><img id="img10" src="" alt="이미지"></td>
+                <td><input type="file" accept="image/*" onchange="previewImage(event, 'img11')"><br><img id="img11" src="" alt="이미지"></td>
+                <td><input type="file" accept="image/*" onchange="previewImage(event, 'img12')"><br><img id="img12" src="" alt="이미지"></td>
+            </tr>
+            <tr>
+                <td><input type="file" accept="image/*" onchange="previewImage(event, 'img13')"><br><img id="img13" src="" alt="이미지"></td>
+                <td><input type="file" accept="image/*" onchange="previewImage(event, 'img14')"><br><img id="img14" src="" alt="이미지"></td>
+                <td><input type="file" accept="image/*" onchange="previewImage(event, 'img15')"><br><img id="img15" src="" alt="이미지"></td>
+                <td><input type="file" accept="image/*" onchange="previewImage(event, 'img16')"><br><img id="img16" src="" alt="이미지"></td>
+            </tr>
+        </table>
     </div>
 
+    <script>
+        function previewImage(event, imgId) {
+            const reader = new FileReader();
+            reader.onload = function(){
+                document.getElementById(imgId).src = reader.result;
+            }
+            reader.readAsDataURL(event.target.files[0]);
+        }
+    </script>
+
     <footer>
-        <p>&copy; 2025 간단한 홈페이지</p>
+        <p>&copy; 2025 Justice4Freedom</p>
     </footer>
 </body>
 </html>
